@@ -1,0 +1,29 @@
+Kata: Sistema de Gestão de Biblioteca
+
+Descrição do Problema:
+Você está desenvolvendo um sistema de gestão de biblioteca. O sistema deve ser capaz de cadastrar livros, gerenciar empréstimos e devoluções, e fornecer relatórios básicos sobre os livros disponíveis e emprestados.
+
+Requisitos Funcionais:
+
+Cadastro de Livros:
+Cada livro possui um título, autor, número de páginas e um identificador único.
+Deve ser possível adicionar novos livros ao sistema.
+
+Empréstimo de Livros:
+- Um livro pode ser emprestado a um usuário, identificado pelo nome.
+- Cada empréstimo deve registrar a data de empréstimo e a data de devolução prevista (por exemplo, em 7 dias).
+- Não deve ser possível emprestar um livro que já esteja emprestado.
+
+Devolução de Livros:
+- Quando um livro é devolvido, a data de devolução real deve ser registrada.
+- O sistema deve calcular se houve atraso na devolução e, se houver, calcular uma multa.
+
+Relatórios:
+- Listar todos os livros disponíveis para empréstimo.
+- Listar todos os livros emprestados e seus respectivos usuários.
+
+Considerações:
+- Utilize classes e estruturas de dados adequadas para representar livros, usuários e empréstimos.
+- Implemente métodos para manipular as operações de empréstimo, devolução e geração de relatórios.
+- Considere como lidar com exceções, como tentativas de empréstimo de livros já emprestados ou tentativas de devolução de livros que não foram emprestados.
+- Este kata é de nível intermediário porque envolve o uso de classes, métodos, manipulação de exceções e a criação de uma estrutura de dados para gerenciar as informações do sistema de biblioteca. É um bom exercício para praticar a aplicação de conceitos orientados a objetos e gerenciamento de estado em Java.
